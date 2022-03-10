@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+      
+
+      
+
+    <div class="timer" >
+        <p id="hour-label" class="label" >Hours</p><p id="min-label" class="label">Minutes</p><p id="sec-label" class="label">seconds</p>
+        <input type="number" id="hour" max="99" min="0" value="0" class="time"><input id="minute" type="number" max="60" min="0" value="0" class="time"><input id="sec" type="number" max="60" min="0" value="0" class="time">
+        <button id="start" class="btn">Start</button>
+        <button id="stop" class="btn">restart</button>
+    </div>
+    
+    <div id="img-class-container">
+          <img src="/img/salik-img-1.png"  id="chaossymbol">
+    </div>
+    
+
+    <div id="estimatedtime">
+       <p id="estimatetimelabel">Current time</p>
+       <input type="number" id="hourest" max="99" min="0" value="0" class="time"><input id="minuteest" type="number" max="60" min="0" value="0" class="time"><input id="secest" type="number" max="60" min="0" value="0" class="time">
+      
+    </div>
+
+<script src="main.js"></script>
+</body>
+</html>
